@@ -1,0 +1,138 @@
+.footer {
+		&__wrap {
+      display: flex;
+			align-items: flex-start;
+    	// justify-content: space-evenly;
+			justify-content: center;
+			
+		}
+		&__box-contact {
+			display: flex;
+			flex-direction: column;
+			padding: 0 51px;
+		}
+		&__subject {
+			color: rgba(39, 76, 91, 1);
+			font-family: Roboto;
+			font-size: 30px;
+			font-weight: 700;
+			line-height: 100%;
+			text-align: right;
+		}
+		&__inner {
+			display: flex;
+			flex-direction: column;
+    	align-items: flex-end;
+			margin-top: 32px;
+		}
+		&__email {
+			color: rgba(82, 92, 96, 1);
+			font-family: Open Sans;
+			font-size: 25px;
+			font-weight: 400;
+		}
+		&__phone {
+			color: rgba(82, 92, 96, 1);
+			font-family: Open Sans;
+			font-size: 25px;
+			font-weight: 400;
+		}
+		&__address {
+				color: rgba(82, 92, 96, 1);
+			font-family: Open Sans;
+			font-size: 25px;
+			font-weight: 400;
+		}
+		
+		&__information {
+			color: rgba(82, 92, 96, 1);
+			font-family: Open Sans;
+			font-size: 18px;
+			font-weight: 400;
+		}
+		&__box-organic {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+			padding: 0 41.5px;
+		}
+    &__inner-logo{
+      display: flex;
+      align-items: center;
+    }
+		&__image {
+      display: flex;
+		}
+		&__img {
+		}
+		&__headline{
+      color: rgba(39, 76, 91, 1);
+			font-family: Roboto;
+			font-size: 38px;
+			font-weight: 700;
+			line-height: 100%;
+
+		}
+		&__text {
+			color: rgba(82, 92, 96, 1);
+			font-family: Open Sans;
+			font-size: 18px;
+			font-weight: 400;
+			line-height: 25px;	
+			text-align: center;
+			margin-top: 23px;
+		}
+		&__network {
+			display: flex;
+			gap: 15px;
+			margin-top: 49px;
+		}
+		&__link{
+			display: flex;
+			justify-content: center;
+    	align-items: center;
+			width: 60px;
+			height: 60px;
+			background: rgba(239, 246, 241, 1);
+			border-radius: 50%;
+		}
+		&__link > img{
+			width: 19.28px;
+			height: 18.57px;
+		}
+		&__box-pages {
+			color: rgba(39, 76, 91, 1);
+			font-family: Roboto;
+			font-size: 30px;
+			font-weight: 700;
+			padding: 0 51px;
+		}
+		&__caption{
+			color: rgba(39, 76, 91, 1);
+			font-family: Roboto;
+			font-size: 30px;
+			font-weight: 700;
+		}
+		&__col{
+			color: rgba(82, 92, 96, 1);
+			font-family: Open Sans;
+			font-size: 18px;
+			font-weight: 400;
+			margin-top: 24px;
+		}
+
+
+}
+.line {
+		// &__box {
+		
+		// }
+		&__box-vertically {
+			width: 0;
+			height: 336px;
+			transform: rotate(0.00deg);
+			margin: 0;
+		}
+}
+
+

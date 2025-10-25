@@ -1,0 +1,19 @@
+.news {
+  &__flex-column {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  &__container {
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+  }
+}
+.button__wrap {
+  &_none {
+    justify-content: flex-start;
+    background: none;
+    margin-top: 19px;
+  }
+}

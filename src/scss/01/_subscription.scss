@@ -1,0 +1,60 @@
+.subscription {
+	padding: 185px 0 117px 0;
+		&__image {
+      position: relative;
+      width: 100%;
+		}
+		&__img {
+      border-radius: 30px;
+		}
+		&__wrap {
+      display: flex;
+			align-items: center;
+  	  flex-wrap: wrap;
+			gap: 326px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+			padding: 105px 71px;
+			justify-content: space-between;
+		}
+		&__title {
+      color: rgba(255, 255, 255, 1);
+      font-family: Roboto;
+      font-size: 50px;
+      font-weight: 250;
+		}
+		&__inner{
+			display: flex;
+			gap: 6px;
+		}
+		&__search {
+		}
+		&__input {
+			width: 349px;
+			height: 80px;
+			border-radius: 16px;
+			background: rgba(255, 255, 255, 1);
+			color: rgba(171, 171, 171, 1);
+			font-family: Roboto;
+			font-style: italic;
+			font-size: 18px;
+			font-weight: 400;
+			text-align: left;
+			padding: 28px 23px 31px 23px;
+		}
+}
+
+.button {
+		&__wrap {
+			&_blue {
+				margin-top: 0px;
+					height: 80px;
+			}
+		}
+		&__btn {
+			&_blue {
+			}
+		}
+}

@@ -1,0 +1,111 @@
+.news {
+	padding: 177px 0 185px 0;
+	&__wrap {
+		display: flex;
+		align-items: flex-end;
+		gap: 559px;
+	}
+	&__inner {
+		display: flex;
+		flex-direction: column;
+	}
+	&__title {
+		color: rgba(126, 182, 147, 1);
+		font-family: Yellowtail;
+		font-size: 36px;
+		font-weight: 400;
+	}
+	&__subtitle {
+		color: rgba(39, 76, 91, 1);
+		font-family: Roboto;
+		font-size: 50px;
+		font-weight: 250;
+	}
+	&__flex {
+		display: flex;
+		gap: 46px;
+	}
+	&__box {
+		position: relative;
+		width: 100%;
+		margin-top: 45px;
+	}
+	&__img {
+		position: relative;
+		width: 677px;
+		width: 524px;
+	}
+	&__image {
+		border-radius: 30px;
+	}
+	&__wrapper {
+		position: absolute;
+		top: 265px;
+		left: 32px;
+		width: 100%;
+		min-width: 613px;
+		height: 330px;
+		padding: 46px 57px 60px 57px;
+		border-radius: 31px 34px 30px 30px;
+		box-shadow: 0px 20px 35px 0px rgba(167, 167, 167, 0.25);
+		background: rgba(255, 255, 255, 1);
+	}
+	&__holder {
+		position: absolute;
+		top: 43px;
+		left: 42px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: rgba(39, 76, 91, 1);
+		font-family: Roboto;
+		font-size: 20px;
+		font-weight: 250;
+		width: 82px;
+		height: 82px;
+		border-radius: 50%;
+		background: rgba(255, 255, 255, 1);
+		text-align: center;
+	}
+	&__icon {
+		display: flex;
+		gap: 8px;
+	}
+	&__card {
+		color: rgba(39, 76, 91, 1);
+		font-family: Roboto;
+		font-size: 18px;
+		font-weight: 400;
+	}
+	&__slogan {
+		color: rgba(39, 76, 91, 1);
+		font-family: Roboto;
+		font-size: 25px;
+		font-weight: 250;
+		margin-top: 15px;
+	}
+	&__text {
+		color: rgba(82, 92, 96, 1);
+		font-family: Open Sans;
+		font-size: 18px;
+		font-weight: 400;
+		margin-top: 2px;
+	}
+}
+
+.button {
+	&__wrap {
+		&_whit {
+			width: 220px;
+			height: 80px;
+			background: rgba(255, 255, 255, 1);
+			border: 2px solid rgba(39, 76, 91, 1);
+			padding: 28px 45px 29px 45px;
+		}
+	}
+	// &__btn {
+	// 	&_white {}
+
+	// 	&__arrow {}
+	// }
+}

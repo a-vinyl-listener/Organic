@@ -1,0 +1,82 @@
+.products {
+	margin-top: 148px;
+	display: flex;
+	&__wrap {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		gap: 23px;
+	}
+	&__inner {
+		display: flex;
+		flex-direction: column;
+		gap: 18px;
+	}
+	&__square {
+		position: absolute;
+		top: 23px;
+		left: 25px;
+		width: 401px;
+		height: 375px;
+		border-radius: 30px;
+		 background: rgba(255, 255, 255, 0.91);
+	}
+	&__circle {
+		position: absolute;
+		top: 164px;
+		left: 178px;
+		 width: 46px;
+		 height: 46px;
+		 color: #fff;
+		 border-radius: 50%;
+		background: rgba(126, 182, 147, 1);
+	} 
+	&__circle > span {
+		position: relative;
+		&::before {
+		position: absolute;
+		top: 18px;
+		left: 17px;
+		content: "";
+		width: 15px;
+		height: 3px;
+		transform: rotate(45.00deg);
+		border-radius: 30px;
+		background-color: #fff;
+		}
+		&::after{
+		position: absolute;
+		top: 27px;
+		left: 17px;
+		content: "";
+		width: 15px;
+		height: 3px;
+		transform: rotate(-45.00deg);
+		border-radius: 30px;
+		background-color: #fff;
+		}
+	}
+	&__image {
+		position: relative;
+	}
+	&__img {
+	width: 451px;
+	height: 421px;
+	border-radius: 30px;
+	}
+	// &__box{
+	// }
+	&__title {
+	color: rgba(39, 76, 91, 1);
+	font-family: Roboto;
+	font-size: 25px;
+	font-weight: 250;
+	}
+	&__text {
+	color: rgba(126, 182, 147, 1);
+	font-family: Yellowtail;
+	font-size: 22px;
+	font-weight: 400;
+	}
+}

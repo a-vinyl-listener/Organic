@@ -1,0 +1,115 @@
+.we {
+	background: url(/icon/01/08.webp) center/cover no-repeat;
+	min-height: 1067px;
+	position: relative;
+	display: flex;
+	align-items: center;
+	&__wrap {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		align-content: flex-end;
+	}
+	&__box-title {
+		color: rgba(126, 182, 147, 1);
+		font-family: Yellowtail;
+		font-size: 36px;
+		font-weight: 400;
+	}
+	&__box-subtitle {
+		color: rgba(39, 76, 91, 1);
+		font-family: Roboto;
+		font-size: 50px;
+		font-weight: 250;
+		margin-top: 8px;
+	}
+	&__box-text {
+		color: rgba(82, 92, 96, 1);
+		font-family: Open Sans;
+		font-size: 18px;
+		font-weight: 400;
+		line-height: 25px;
+		margin-top: 14px;
+	}
+	&__holder {
+		display: flex;
+		flex-direction: column;
+		gap: 30px;
+		margin-top: 46px;
+	}
+	&__inner {
+		display: flex;
+		gap: 19px;
+	}
+	&__inner-img img {
+		border-radius: 20px;
+	}
+	&__inner-row {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		gap: 7px;
+	}
+	&__inner-title {
+		color: rgba(39, 76, 91, 1);
+		font-family: Roboto;
+		font-size: 25px;
+		font-weight: 250;
+	}
+	&__inner-text {
+		color: rgba(82, 92, 96, 1);
+		font-family: Open Sans;
+		font-size: 18px;
+		font-weight: 400;
+		line-height: 25px;
+	}
+}
+
+.button {
+	&__wrap {
+		&_blue {
+			background: rgba(39, 76, 91, 1);
+		}
+	}
+	&__btn {
+		&_blue {
+			color: rgba(255, 255, 255, 1);
+		}
+	}
+	&__arrow {
+		border: 1px solid rgba(255, 255, 255, 0.272);
+	}
+}
+
+
+
+
+// .button{
+// 	&__wrap{
+// 		display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     gap: 10px;
+// 		width: 220px;
+//     height: 79px;
+// 		border-radius: 16px;
+// 		background: rgba(39, 76, 91, 1);
+// 		margin-top: 23px;
+// 	}
+//   &__btn {
+//     color: rgba(255, 255, 255, 1);
+//     font-family: Roboto;
+//     font-size: 20px;
+//     font-weight: 700;
+//     border-radius: 16px;
+//   }
+//   &__arrow{
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     width: 19px;
+//     height: 19px;
+//     border-radius: 50%;
+// 		background: rgba(51, 91, 107, 1);
+//   }
+// }

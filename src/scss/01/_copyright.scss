@@ -1,0 +1,21 @@
+.copyright {
+  height: 48px;
+  margin-top: 120px;
+
+		&__footer {
+		}
+		&__inner {
+      display: flex;
+      justify-content: center;
+      padding: 17px 0 ;
+		}
+}
+.line {
+		&__box {
+		}
+		&__box-copyright {
+      display: block;
+      width: 1920px;
+      margin: 0;
+		}
+}
