@@ -1,0 +1,34 @@
+.not-found{
+  background: url(/src/icon/13/01.webp) center/cover no-repeat;
+	width: 100%;
+	min-height: 898px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	&__wrapper{
+		display: flex;
+		flex-direction: column;
+    align-items: flex-end;
+	}
+	&__title {
+	color: rgba(39, 76, 91, 1);
+	font-family: Roboto;
+	font-size: 350px;
+	font-weight: 250;
+	}
+	&__headline{
+	color: rgba(39, 76, 91, 1);
+	font-family: Roboto;
+	font-size: 70px;
+	font-weight: 250;
+	}
+	&__text{
+	color: rgba(82, 92, 96, 1);
+	font-family: Open Sans;
+	font-size: 18px;
+	font-weight: 600;
+	}
+	&__inner{
+		padding: 38px 248px 0 0 ;
+	}
+}

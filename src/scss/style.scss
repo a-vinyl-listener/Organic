@@ -1,5 +1,4 @@
-
-
+@use '01/_variables'; 
 @use '01/_header'; 
 @use '01/_mixins'; 
 @use '01/_media'; 
@@ -25,7 +24,6 @@
 @use '01/_shop-single'; 
 @use '01/_health'; 
 @use '01/_description'; 
-@use '../scss/01/variables'; 
 @use '01/_related-products'; 
 @use '01/_servicing';
 @use '01/_grow';
@@ -39,6 +37,19 @@
 @use '01/_farmy';
 @use '01/_our-team';
 @use '01/_team-wrapper';
-@use'01/_recen-news';
-@use'01/_news__flex-column';
-
+@use '01/_recen-news';
+@use '01/_news__flex-column';
+@use '01/_research';
+@use '01/_organic-food';
+@use '01/_vitamin';
+@use '01/_contact-us';
+@use '01/_work';
+@use '01/_location';
+@use '01/_form';
+@use '01/_not-found';
+@use '01/_licenses';
+@use '01/_information';
+@use '01/_changelog';
+@use '01/_initial';
+@use '01/_protected-page';
+@use '01/_password';

@@ -1,0 +1,76 @@
+.work {
+	margin-top: 290px;
+	&__wrap {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+	// &__image {
+	// }
+	// &__img {
+	// }
+	&__col {
+	display: flex;
+	flex-direction: column;
+	gap: 34px;
+	}
+	&__inner {
+	display: flex;
+	flex-direction: column;
+	gap: 14px;
+	}
+	&__header-title {
+	color: rgba(39, 76, 91, 1);
+	font-family: Roboto;
+	font-size: 50px;
+	font-weight: 800;
+	}
+	&__header-text {
+	color: rgba(82, 92, 96, 1);
+	font-family: Open Sans;
+	font-size: 18px;
+	font-weight: 400;
+	word-spacing: 6px;
+	}
+	&__row{
+	display: flex;
+	flex-direction: column;
+	gap: 17px;
+	}
+	&__box {
+	display: flex;
+	align-items: center;
+	gap: 19px;
+	max-width: 352px;
+	padding: 11px 46px 13px 12px;
+	border: 1px solid rgba(238, 238, 238, 1);border-radius: 16px;
+	background: rgba(255, 255, 255, 1);
+	}
+	// &__picture {
+	// }
+	// &__icon {
+	// }
+	&__flex{
+	display: flex;
+	flex-direction: column;
+	}
+	&__title {
+	color: rgba(39, 76, 91, 1);
+	font-family: Roboto;
+	font-size: 25px;
+	font-weight: 800;
+	}
+	&__mailto {
+	color: rgba(82, 92, 96, 1);
+	font-family: Open Sans;
+	font-size: 18px;
+	font-weight: 400;
+	}
+	&__tel {
+	color: rgba(82, 92, 96, 1);
+	font-family: Open Sans;
+	font-size: 18px;
+	font-weight: 400;
+	}
+}
